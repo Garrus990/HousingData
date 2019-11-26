@@ -1,5 +1,6 @@
 # ignore checkpoints
 .ipynb_checkpoints/
+conda-create-env.yml
 
 # ignore data
 ML case/
