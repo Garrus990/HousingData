@@ -2,5 +2,8 @@
 .ipynb_checkpoints/
 conda-create-env.yml
 
+# ignore models
+*.pkl
+
 # ignore data
 ML case/
