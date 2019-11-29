@@ -1,0 +1,29 @@
+name: ml-env
+
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+
+dependencies:
+  - numpy
+  - pandas
+  - pillow
+  - pip
+  - python
+  - scipy
+  - scikit-learn
+  - seaborn
+  
+  - conda-forge:lightgbm
+  - conda-forge:nbstripout
+  - conda-forge:plotnine
+  - conda-forge:umap-learn
+  - conda-forge:wand
+  
+  - pytorch:torchvision
+
+  - pip:
+    - git+https://github.com/darenr/scikit-optimize  # the main repository is abandoned and bugged, so we need to install from an updated fork
+
+
