@@ -15,6 +15,7 @@ dependencies:
   - scikit-learn
   - seaborn
   
+  - conda-forge:jupyterlab
   - conda-forge:lightgbm
   - conda-forge:nbstripout
   - conda-forge:plotnine
